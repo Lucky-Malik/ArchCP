@@ -10,3 +10,4 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 export PATH="$HOME/bin:$PATH"
 alias dotfiles='/usr/bin/git --git-dir=/home/zcxdr/.dotfiles/ --work-tree=/home/zcxdr'
+[ -f ~/.config/cp-tools/functions.sh ] && source ~/.config/cp-tools/functions.sh
