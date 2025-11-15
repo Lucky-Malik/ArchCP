@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 a879f583b4947bf437be2464d625c655efcfebc3 zcxdr <zcxdr@proton.me> 1763233838 +0000	commit (initial): Initial commit: i3, xinit, bashrc and scaffold
+a879f583b4947bf437be2464d625c655efcfebc3 a879f583b4947bf437be2464d625c655efcfebc3 zcxdr <zacxyder@gmail.com> 1763234324 +0000	Branch: renamed refs/heads/master to refs/heads/main
+a879f583b4947bf437be2464d625c655efcfebc3 fee21321429121249578a1d3237b6c950756579e zcxdr <zacxyder@gmail.com> 1763236851 +0000	commit: Moved test and scaffold to functions.sh and bashrc
+fee21321429121249578a1d3237b6c950756579e ed4fa20f4819d69ec8f4bee486a9a180b7ef9724 zcxdr <zacxyder@gmail.com> 1763237758 +0000	commit: Changes in config for polybar statusbar
+ed4fa20f4819d69ec8f4bee486a9a180b7ef9724 a927c40fa540f7f303f8468b8338561eeafa60bd zcxdr <zacxyder@gmail.com> 1763238314 +0000	commit: Polybar config added in .config
