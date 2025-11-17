@@ -6,3 +6,6 @@ fee21321429121249578a1d3237b6c950756579e ed4fa20f4819d69ec8f4bee486a9a180b7ef972
 ed4fa20f4819d69ec8f4bee486a9a180b7ef9724 a927c40fa540f7f303f8468b8338561eeafa60bd zcxdr <zacxyder@gmail.com> 1763238314 +0000	commit: Polybar config added in .config
 a927c40fa540f7f303f8468b8338561eeafa60bd a927c40fa540f7f303f8468b8338561eeafa60bd zcxdr <zacxyder@gmail.com> 1763238688 +0000	reset: moving to main
 a927c40fa540f7f303f8468b8338561eeafa60bd a927c40fa540f7f303f8468b8338561eeafa60bd zcxdr <zacxyder@gmail.com> 1763238723 +0000	reset: moving to main
+a927c40fa540f7f303f8468b8338561eeafa60bd c19741f345a6c81a305813905ee885c794c3bf2c zcxdr <zacxyder@gmail.com> 1763239827 +0000	commit: Migrate to GNU Stow Structure
+c19741f345a6c81a305813905ee885c794c3bf2c 5a2912cfdc58916ce3cff9afc6d1190ec894e195 zcxdr <zacxyder@gmail.com> 1763401873 +0000	commit: Add CList API script for upcoming contests
+5a2912cfdc58916ce3cff9afc6d1190ec894e195 7ebb33c6ca8fb5b036826bbd5ba2f1d8290a5e39 zcxdr <zacxyder@gmail.com> 1763406050 +0000	commit: FIX : Manually rebuilt i3 config with feh, alacritty and polybar
