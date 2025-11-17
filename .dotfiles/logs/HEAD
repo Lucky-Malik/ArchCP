@@ -9,3 +9,4 @@ a927c40fa540f7f303f8468b8338561eeafa60bd a927c40fa540f7f303f8468b8338561eeafa60b
 a927c40fa540f7f303f8468b8338561eeafa60bd c19741f345a6c81a305813905ee885c794c3bf2c zcxdr <zacxyder@gmail.com> 1763239827 +0000	commit: Migrate to GNU Stow Structure
 c19741f345a6c81a305813905ee885c794c3bf2c 5a2912cfdc58916ce3cff9afc6d1190ec894e195 zcxdr <zacxyder@gmail.com> 1763401873 +0000	commit: Add CList API script for upcoming contests
 5a2912cfdc58916ce3cff9afc6d1190ec894e195 7ebb33c6ca8fb5b036826bbd5ba2f1d8290a5e39 zcxdr <zacxyder@gmail.com> 1763406050 +0000	commit: FIX : Manually rebuilt i3 config with feh, alacritty and polybar
+7ebb33c6ca8fb5b036826bbd5ba2f1d8290a5e39 b4bc8cb83f66bfc31fef96b405b4ed06ee494128 zcxdr <zacxyder@gmail.com> 1763411615 +0000	commit: Feat: Add Polybar widgets, fix stow, and secure API keys

@@ -2,9 +2,26 @@
 
 import requests
 from datetime import datetime, timedelta, timezone
+import os
 
 # --- CONFIG ---
-CLIST_API_KEY = "username=zcxdr&api_key=bd5bf3c9d71bfcf3d0fed51c129c86879e67f478"
+def load_env():
+    # Find the .env file in the same directory as the script
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    env_path = os.path.join(script_dir, ".env")
+    try:
+        with open(env_path, 'r') as f:
+            for line in f:
+                if '=' in line:
+                    key, value = line.strip().split('=', 1)
+                    os.environ[key] = value.strip('"')
+    except FileNotFoundError:
+        pass # No .env file, will fail later (which is ok)
+
+load_env() # Run the function
+
+# Get the key from the environment
+CLIST_API_KEY = os.environ.get("CLIST_API_KEY")
 RESOURCE_IDS = "1,93" 
 START_TIME_SECONDS = 24 * 3600 
 # ---
