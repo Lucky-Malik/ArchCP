@@ -150,6 +150,15 @@ class CPCli(App):
         # 2. Update Status
         self.query_one("#status_log", Static).update(f"🚀 Launching: {safe_folder_name}")
 
+        # --- NEW: Switch to a Named Workspace ---
+    # We use i3-msg to switch to a workspace named after the contest
+    # The "10:" prefix is optional, but helps sorting. We can just use the name.
+        workspace_name = f"{safe_folder_name}" 
+        try:
+            subprocess.run(["i3-msg", "workspace", workspace_name])
+        except Exception as e:
+        # Even if i3 fails, we still want to launch the apps
+            pass
         # 3. Execute Commands
         # We need to run scaffold AND firefox.
         # Scaffold needs a terminal. Firefox does not.
