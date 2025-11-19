@@ -13,3 +13,6 @@ alias dotfiles='/usr/bin/git --git-dir=/home/zcxdr/.dotfiles/ --work-tree=/home/
 
 #Load custom cp-tools functions
 [ -f ~/.config/cp-tools/functions.sh ] && source ~/.config/cp-tools/functions.sh
+export PATH="$HOME/.config/cp-tools/scripts:$PATH"
+# Add custom scripts to PATH
+export PATH="$HOME/.config/cp-tools/scripts:$HOME/.config/cp-app:$PATH"

@@ -23,7 +23,7 @@ load_env() # Run the function
 # Get the key from the environment
 CLIST_API_KEY = os.environ.get("CLIST_API_KEY")
 RESOURCE_IDS = "1,93" 
-START_TIME_SECONDS = 24 * 3600 
+START_TIME_SECONDS = 72 * 3600 
 # ---
 
 def fetch_upcoming_contests():

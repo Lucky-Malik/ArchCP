@@ -1,1 +1,5 @@
 *.env
+.dotfiles/logs
+.dotfiles/index
+.dotfiles/refs
+.dotfiles/COMMIT_EDITMSG
